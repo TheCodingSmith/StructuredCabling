@@ -1,1 +1,22 @@
 ---
+  navigation:
+    -
+      link: 'quote'
+      label: 'Get A Quote'
+    -
+      link: 'gallery'
+      label: 'Gallery'
+    -
+      link: 'contact'
+      label: 'Contact Us'
+    -
+      link: 'aboutUs'
+      label: 'About Us'
+  bannerLarge:
+    -
+      image: '1-Get-Quote-Banner.jpg'
+      alt: ''
+    -
+      image: '2-Structured-Cabling-Banner.jpg'
+    -
+      image: '3-Servicing-All-Southern-California-Banner.jpg'
