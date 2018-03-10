@@ -1,0 +1,23 @@
+<div class="row navigation">
+  {{#if data.navigation}}
+  <ul class="vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown">
+    {{#each data.navigation}}
+    <li>
+      <a href="{{root}}/{{this.link}}.html">{{this.label}}</a>
+      {{#if this.sublink}}
+      {{#each this.sublink}}
+      <ul class="vertical menu">
+        <li>
+          <a href="test">{{this.mainlabel}}</a>
+          <ul class="vertical menu">
+            <li><a href="{{root}}/{{this.link}}.html">{{this.label}}</a></li>
+          </ul>
+        </li>
+      </ul>
+      {{/each}}
+      {{/if}}
+    </li>
+    {{/each}}
+  </ul>
+  {{/if}}
+</div>
